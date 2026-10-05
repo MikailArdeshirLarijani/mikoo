@@ -99,7 +99,7 @@ npm run build:electron
 
 **Mikail Ardeshir** — High School Science Student, Full-Stack Web Builder & AI Enthusiast
 
-* Telegram: [@mikailardeshir](https://t.me/mikailardeshir)
+* Telegram: [@MKL_AR](https://t.me/MKL_AR)
 * Email: [mikailardeshir@gmail.com](mailto:mikailardeshir@gmail.com)
 * GitHub: [@MikailArdeshirLarijani](https://github.com/MikailArdeshirLarijani)
 
