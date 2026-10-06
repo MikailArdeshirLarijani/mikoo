@@ -77,7 +77,7 @@ These cutting-edge developer features are uniquely built into mikoO IDE and do n
     </td>
     <td>
       <b>Mikail Ardeshir</b> — High School Science Student, Full-Stack Builder & AI Developer<br/>
-      Passionate about the convergence of <b>Artificial Intelligence</b>, <b>Software Engineering</b>, and <b>Genetics/Bioinformatics</b>.
+      Passionate about the convergence of <b>Artificial Intelligence</b>, <b>Software Engineering</b>, and <b>Genetics</b>.
     </td>
   </tr>
 </table>
