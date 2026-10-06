@@ -6,6 +6,7 @@
 [![Platform](https://img.shields.io/badge/platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/MikailArdeshirLarijani/mikoo/releases)
 [![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
 [![Built with](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://github.com/MikailArdeshirLarijani/mikoo)
+[![IDE](https://img.shields.io/badge/mikoO_IDE-VS_Code_Powered-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://github.com/MikailArdeshirLarijani/mikoo)
 [![Electron](https://img.shields.io/badge/Electron_44-191970?style=for-the-badge&logo=Electron&logoColor=white)](https://github.com/MikailArdeshirLarijani/mikoo)
 
 </div>
