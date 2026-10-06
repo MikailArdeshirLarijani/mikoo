@@ -14,11 +14,9 @@
 
 ## 🌟 Overview | درباره پروژه
 
-**mikoO IDE** is an advanced, AI-first Integrated Development Environment inspired by the architecture of modern AI editors like **Cursor**. It builds upon the battle-tested, high-performance open-source foundation of **VS Code (Code-OSS)**, seamlessly embedding the proprietary **mikoO AI Copilot** directly into the editor's core workflow.
+**mikoO IDE** is a **personal passion & hobby project** created by **Mikail Ardeshir** for experimenting with AI-assisted workflows. It takes the familiar open-source **Code-OSS (VS Code core)** and embeds an interactive custom AI sidebar Copilot directly into the editor for fun, learning, and daily personal use.
 
-> *Created by **Mikail Ardeshir**, mikoO IDE bridges the gap between deep code editing and generative intelligence — allowing developers to edit, debug, refactor, and generate production code with zero context switching.*
-
----
+> *💡 **Disclaimer & Project Spirit**: This is a non-commercial, exploratory side project built for the joy of coding, learning how AI editors like Cursor work under the hood, and customizing my own dream development workspace.*
 
 ## ⚙️ Architecture & VS Code Foundation
 
@@ -76,7 +74,7 @@ These cutting-edge developer features are uniquely built into mikoO IDE and do n
       <img src="https://raw.githubusercontent.com/MikailArdeshirLarijani/MikailArdeshirLarijani/main/profile.png" width="70px" style="border-radius: 50%;" />
     </td>
     <td>
-      <b>Mikail Ardeshir</b> — High School Science Student, Full-Stack Builder & AI Developer<br/>
+      <b>Mikail Ardeshir</b> — High School Science Student, High School Student & Web / AI Enthusiast<br/>
       Passionate about the convergence of <b>Artificial Intelligence</b>, <b>Software Engineering</b>, and <b>Genetics</b>.
     </td>
   </tr>
