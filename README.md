@@ -40,6 +40,14 @@ Just like industry leaders such as Cursor and Windsurf, **mikoO IDE** does not a
 * **Direct Code Injection (`Insert into Editor`)**: Review AI-generated snippets and inject them right into your cursor position without copying and pasting.
 * **Multi-Model Orchestration**: Switch between **OpenAI GPT-4o**, **GPT-4o Mini**, and **Anthropic Claude 3.5 Sonnet** on demand.
 
+### 🔮 5 Proprietary Features (Exclusive to mikoO IDE)
+These cutting-edge developer features are uniquely built into mikoO IDE and do not exist in standard VS Code:
+1. **🎨 Dynamic Chat Background Themes**: Switch on-the-fly between *Cyber Grid*, *Matrix Code*, *Glass Acrylic*, and *Obsidian Dark*.
+2. **📄 Instant Extract to New Editor Tab (`Open in New Tab`)**: Instantly spin up a fresh editor tab containing AI-generated code without touching clipboard or cursor.
+3. **📊 Real-time Token & Cost Counter**: Live calculation of prompt tokens and estimated LLM billing costs ($) directly under the prompt box.
+4. **🧹 Zero-Footprint Memory Wipe**: One-click purge of AI conversation context and memory with the clean broom trigger.
+5. **🎛️ Granular Temperature Dial**: Fine-tune generative creativity from 0.0 (deterministic mathematical code) to 1.0 (creative software architecture).
+
 ### 🎨 Custom Visual Brand & Theme
 * **Icon & Identity**: Custom vibrant rainbow branding and custom window title formatting.
 * **Theme Pre-configurations**: Optimized dark contrast palettes engineered for reduced eye strain during extended development sessions.
