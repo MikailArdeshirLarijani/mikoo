@@ -1,114 +1,92 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,12,3&height=190&section=header&text=mikoO%20AI%20Studio&fontSize=54&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Next-Gen%20AI%20Desktop%20Command%20Center&descAlignY=58&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,12,3&height=190&section=header&text=mikoO%20IDE&fontSize=56&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Next-Gen%20AI-First%20Code%20Editor%20%E2%80%94%20Powered%20by%20VS%20Code%20Core&descAlignY=58&descSize=16" width="100%"/>
 
-[![Version](https://img.shields.io/badge/version-2.0.0-ec4899?style=for-the-badge)](https://github.com/MikailArdeshirLarijani/mikoo)
+[![Version](https://img.shields.io/badge/version-2.5.0-ec4899?style=for-the-badge)](https://github.com/MikailArdeshirLarijani/mikoo)
+[![Core](https://img.shields.io/badge/Powered_by-VS_Code_(Code--OSS)-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://github.com/microsoft/vscode)
 [![Platform](https://img.shields.io/badge/platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/MikailArdeshirLarijani/mikoo/releases)
-[![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
-[![Built with](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://github.com/MikailArdeshirLarijani/mikoo)
-[![IDE](https://img.shields.io/badge/mikoO_IDE-VS_Code_Powered-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://github.com/MikailArdeshirLarijani/mikoo)
-[![Electron](https://img.shields.io/badge/Electron_44-191970?style=for-the-badge&logo=Electron&logoColor=white)](https://github.com/MikailArdeshirLarijani/mikoo)
+[![Author](https://img.shields.io/badge/Author-Mikail_Ardeshir-green?style=for-the-badge)](https://github.com/MikailArdeshirLarijani)
+[![License](https://img.shields.io/badge/license-MIT-purple?style=for-the-badge)](LICENSE)
 
 </div>
 
 ---
 
-## 🌟 Overview
+## 🌟 Overview | درباره پروژه
 
-**mikoO AI Studio** is a unified, high-performance desktop client engineered for seamless interaction with world-class artificial intelligence models. Designed from the ground up using **Electron 44**, **React 19**, and **TypeScript**, it provides an unprecedented desktop workflow for creators, programmers, and AI enthusiasts.
+**mikoO IDE** is an advanced, AI-first Integrated Development Environment inspired by the architecture of modern AI editors like **Cursor**. It builds upon the battle-tested, high-performance open-source foundation of **VS Code (Code-OSS)**, seamlessly embedding the proprietary **mikoO AI Copilot** directly into the editor's core workflow.
 
-> *A developer-centric AI workstation featuring live multi-model switching, generative image pipelines, speech recognition, and a runtime 30-parameter custom CSS personalization engine.*
-
----
-
-## ⚡ Key Features
-
-### 🧠 Advanced AI Multi-Model Hub
-* **Instant Model Switching**: Seamlessly toggle between OpenAI **GPT-4o**, **GPT-4o Mini**, Anthropic **Claude 3.5 Sonnet**, and **Claude 3 Haiku** mid-session.
-* **Integrated DALL-E 3 Generation**: Directly invoke image synthesis using the `/image [prompt]` inline command.
-* **Granular Temperature Control**: Adjust sampling temperature dynamically from strictly factual (`0.0`) to highly creative (`2.0`).
-* **Custom System Prompts**: Define custom personas and behavioral guidelines per session.
-
-### 💬 Modern Interactive Workspace
-* **In-Place Message Editing**: Edit and revise previously sent queries on the fly.
-* **Regenerate & Branching**: Re-run AI generations with one click to explore alternate solutions.
-* **Pinned Discussions**: Pin mission-critical chats to the top of your sidebar.
-* **File Upload & Code Ingestion**: Read source code and text files directly into the active prompt context.
-* **Voice Dictation**: Built-in speech-to-text recognition supporting both English and Persian input.
-* **Live Token Estimator**: Real-time token usage counter displayed right under the composer.
-* **Interrupt Stream**: Abort long generations instantly using the native `AbortController` stop trigger.
-* **Export Sessions**: Export entire chat histories with formatted timestamps to plain text (`.txt`).
-
-### 🎨 Personalization (30+ Live CSS Settings)
-* **6 Theme Accent Colors**: Vibrant palettes (Blue, Purple, Emerald, Rose, Amber, Cyan).
-* **Adaptive Typography**: Choose from System UI, Inter, Roboto, or monospace code typography.
-* **Glassmorphism & Frosted Blur**: Optional acrylic backdrop effects on headers and sidebars.
-* **Background Textures**: Switch between Minimal Solid, Dotted Matrix, and Blueprint Grid canvas layouts.
-* **Syntax Highlighting**: Dark, Matrix Green, and Hacker Red code block aesthetics with quick copy actions.
-* **Layout Geometry**: Customize border radiuses, chat widths, and docked vs. floating composer bubbles.
+> *Created by **Mikail Ardeshir**, mikoO IDE bridges the gap between deep code editing and generative intelligence — allowing developers to edit, debug, refactor, and generate production code with zero context switching.*
 
 ---
 
-## 🛠️ Architecture & Tech Stack
+## ⚙️ Architecture & VS Code Foundation
 
-| Domain | Technology | Details |
-| :--- | :--- | :--- |
-| **Desktop Runtime** | Electron 44 | Secure IPC architecture & cross-process bridge |
-| **UI Framework** | React 19 | Fast virtual DOM reconciliation & modern hooks |
-| **Language** | TypeScript | Strictly typed enterprise codebase |
-| **Styling Engine** | TailwindCSS + Dynamic CSS | Zero-latency runtime theme injection |
-| **State Management** | Zustand | Optimized store with local persistence |
-| **Markdown & Code** | react-markdown + Prism | GFM compliant parser with syntax highlighting |
-| **Bundler** | Vite 8 | Near-instant HMR & minified release artifacts |
+Just like industry leaders such as Cursor and Windsurf, **mikoO IDE** does not attempt to reinvent the code editor from scratch. Instead, it harnesses the world's most proven developer toolchain:
+
+* **Engine Core**: Built on the open-source **Code-OSS** codebase (free from proprietary telemetry and bloatware).
+* **Language Support**: Out-of-the-box syntax highlighting, IntelliSense, and diagnostics for JavaScript, TypeScript, Python, C++, Rust, Go, and 50+ languages.
+* **Integrated Terminal**: Native Windows PowerShell, CMD, Git Bash, and WSL shells embedded inside the workspace.
+* **Extension Ecosystem**: Full compatibility with the open-source VS Code extension ecosystem.
+* **Native AI Sidebar**: An integrated **mikoO AI Copilot** sidebar in the Activity Bar with direct bidirectional communication with the active text editor.
+
+---
+
+## ⚡ mikoO AI Capabilities
+
+### 🤖 In-Editor Copilot & Assistant
+* **Active Context Ingestion (`📎 Add File Context`)**: One click sends the currently open file or active code selection directly to the AI model.
+* **Instant Action Chips**: One-tap triggers for `💡 Explain Code`, `🐛 Fix Bugs & Optimize`, and `🧪 Generate Unit Tests`.
+* **Direct Code Injection (`Insert into Editor`)**: Review AI-generated snippets and inject them right into your cursor position without copying and pasting.
+* **Multi-Model Orchestration**: Switch between **OpenAI GPT-4o**, **GPT-4o Mini**, and **Anthropic Claude 3.5 Sonnet** on demand.
+
+### 🎨 Custom Visual Brand & Theme
+* **Icon & Identity**: Custom vibrant rainbow branding and custom window title formatting.
+* **Theme Pre-configurations**: Optimized dark contrast palettes engineered for reduced eye strain during extended development sessions.
 
 ---
 
 ## 🚀 Getting Started
 
-### Prerequisites
-* [Node.js](https://nodejs.org/) `>= 18.x`
-* [npm](https://www.npmjs.com/) or `yarn`
+### Installation
 
-### Installation & Run
-
-```bash
-# Clone the repository
-git clone https://github.com/MikailArdeshirLarijani/mikoo.git
-
-# Enter project directory
-cd mikoo
-
-# Install dependencies
-npm install
-
-# Start in development mode
-npm run dev
-
-# Package native Windows executable
-npm run build:electron
-```
-
-### Configuration
-1. Launch **mikoO AI Studio**.
-2. Navigate to **Settings** → **API & Config**.
-3. Supply your **OpenAI API Key** or **Anthropic API Key** (keys are kept securely on your local machine only).
-4. Start exploring!
+1. Download or clone this repository:
+   ```bash
+   git clone https://github.com/MikailArdeshirLarijani/mikoo.git
+   ```
+2. Launch **mikoO IDE** via the desktop launcher or executable.
+3. Open any project folder (`File` → `Open Folder...`).
+4. Click the **mikoO AI** icon in the left Activity Bar to summon your Copilot!
 
 ---
 
-## 👤 Author
+## 👤 Creator & Maintainer
 
-**Mikail Ardeshir** — High School Science Student, Full-Stack Web Builder & AI Enthusiast
+<table>
+  <tr>
+    <td width="80px" align="center">
+      <img src="https://raw.githubusercontent.com/MikailArdeshirLarijani/MikailArdeshirLarijani/main/profile.png" width="70px" style="border-radius: 50%;" />
+    </td>
+    <td>
+      <b>Mikail Ardeshir</b> — High School Science Student, Full-Stack Builder & AI Developer<br/>
+      Passionate about the convergence of <b>Artificial Intelligence</b>, <b>Software Engineering</b>, and <b>Genetics/Bioinformatics</b>.
+    </td>
+  </tr>
+</table>
 
-* Telegram: [@MKL_AR](https://t.me/MKL_AR)
-* Email: [mikailardeshir@gmail.com](mailto:mikailardeshir@gmail.com)
-* GitHub: [@MikailArdeshirLarijani](https://github.com/MikailArdeshirLarijani)
+### Connect with the Creator:
+* 🌐 **GitHub Profile**: [@MikailArdeshirLarijani](https://github.com/MikailArdeshirLarijani)
+* 💬 **Telegram**: [@MKL_AR](https://t.me/MKL_AR)
+* ✉️ **Email**: [mikailardeshir@gmail.com](mailto:mikailardeshir@gmail.com)
+* 💼 **Project Portfolio**: [Sharif Olympiad Platform & Freelance Works](https://github.com/MikailArdeshirLarijani)
 
 ---
 
-## 📄 License
+## 📄 License & Attribution
 
-Distributed under the **MIT License**. See `LICENSE` for more information.
+This project is open-sourced under the **MIT License**.
+
+> **Attribution Note**: mikoO IDE uses the open-source **Code - OSS** repository as its desktop foundation. Visual Studio Code and the Visual Studio Code logo are trademarks of Microsoft Corporation. All rights reserved.
 
 <div align="center">
 
